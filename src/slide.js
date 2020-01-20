@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types'
-import React from 'react'
+import PropTypes from "prop-types";
+import React from "react";
 
 function Slide(props) {
   return (
@@ -10,13 +10,13 @@ function Slide(props) {
         <div>{props.children}</div>
       </footer>
     </article>
-  )
+  );
 }
 
 Slide.propTypes = {
   image: PropTypes.string.isRequired,
   style: PropTypes.object,
   title: PropTypes.string
-}
+};
 
-export default Slide
+export default Slide;
